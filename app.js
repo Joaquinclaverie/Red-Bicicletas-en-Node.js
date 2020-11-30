@@ -16,6 +16,7 @@ var bicicletasAPIRouter = require('./routes/api/bicicletas');
 var usuariosAPIRouter = require('./routes/api/usuarios');
 var usuariosRouter = require('./routes/usuarios');
 var tokenRouter = require('./routes/token');
+var authAPIRouter = require('./routes/api/auth')
 
 const store = new session.MemoryStore;
 
