@@ -133,9 +133,11 @@ app.use('/api/auth', authAPIRouter);
 app.use('/api/bicicletas', bicicletasAPIRouter);
 app.use('/api/usuarios', usuariosAPIRouter);
 
-app.use('/google728126f1c865d592', function(req, res) {
-  res.sendFile('public/google728126f1c865d592.html');
+/*
+app.use('', function(req, res) {
+  res.sendFile('public/');
 });
+*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
